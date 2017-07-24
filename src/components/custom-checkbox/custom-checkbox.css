@@ -1,0 +1,19 @@
+.custom-checkbox {
+    width: 61px;
+    height: 61px;
+    float: left;
+    background-image: url("assets/normal.jpg");
+    cursor:pointer;
+}
+
+.custom-checkbox.checked {
+    background-image: url("assets/checked.jpg");
+}
+
+.custom-checkbox.disabled {
+    background-image: url("assets/disabled.jpg");
+}
+
+.custom-checkbox.checked.disabled {
+    background-image: url("assets/checked-disabled.jpg");
+}
